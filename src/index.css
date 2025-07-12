@@ -1,0 +1,29 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+  background-color: #0c0f0c; /* Exact background color from mockup */
+  font-family: "Poppins", sans-serif; /* Poppins font as specified */
+  color: #ffffff; /* Default text color */
+  min-height: 100vh;
+}
+
+/* Custom scrollbar for dropdowns if needed */
+.max-h-60::-webkit-scrollbar {
+  width: 8px;
+}
+
+.max-h-60::-webkit-scrollbar-track {
+  background: #1f1f1f;
+  border-radius: 10px;
+}
+
+.max-h-60::-webkit-scrollbar-thumb {
+  background: #2d2d2d;
+  border-radius: 10px;
+}
+
+.max-h-60::-webkit-scrollbar-thumb:hover {
+  background: #3a3a3a;
+}
